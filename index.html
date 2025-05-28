@@ -787,6 +787,11 @@
 </section>
 
 <style>
+    .section {
+        padding: 20px;
+        text-align: center;
+        background-color: #1a2a44; /* Dark blue background matching the image */
+    }
     .social-links {
         display: flex;
         justify-content: center;
@@ -795,23 +800,21 @@
         margin-top: 20px;
     }
     .social-link {
-        display: flex;
-        align-items: center;
-        gap: 10px;
+        display: inline-block;
         padding: 10px 20px;
-        background-color: #f0f0f0;
+        background-color: #1a2a44; /* Matches the button background */
+        border: 3px solid #ffd700; /* Yellow border matching the image */
         border-radius: 5px;
         text-decoration: none;
-        color: #333;
+        color: #ffffff; /* White text */
         font-weight: bold;
-        transition: background-color 0.3s;
+        font-size: 16px;
+        text-transform: uppercase; /* Matches the all-caps style in the image */
+        transition: background-color 0.3s, color 0.3s;
     }
     .social-link:hover {
-        background-color: #007bff;
-        color: white;
-    }
-    .social-link span {
-        font-size: 1.2em;
+        background-color: #ffd700; /* Yellow background on hover */
+        color: #1a2a44; /* Dark text on hover for contrast */
     }
 </style>
     <!-- Theme Toggle Button -->
